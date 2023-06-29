@@ -34,6 +34,7 @@ def isPalindromeList(self, s: str) -> bool:
     return True # 모든 문자가 일치하면 True를 반환합니다.
 
 # 데크 자료형을 이용한 최적화
+import collections; # 데크 자료형을 사용하기 위해 collection 모듈을 임포트 합니다.
 def isPalindromeDeque(self, s: str) -> bool:
     strs: Deque = collections.deque()
     # 입력 문자열의 각 문자를 순회합니다.
@@ -49,6 +50,7 @@ def isPalindromeDeque(self, s: str) -> bool:
     return True # 모든 문자가 일치하면 True를 반환합니다.
 
 # 슬라이싱 사용
+import re  # 정규표현식을 사용하기 위해 re 모듈을 임포트합니다.
 def isPalindrome(self, s: str) -> bool:
     s = s.lower() # 문자열을 소문자로 변환합니다.
     s = re.sub('[^a-z0-9]', '', s) # 정규표현식을 사용하여 영문/숫자 이외의 문자를 필터링합니다.
