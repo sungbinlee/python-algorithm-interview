@@ -2,7 +2,7 @@
 Chapter 02 - Problem 02 - 빗물 트래핑 - https://leetcode.com/problems/trapping-rain-water/
 
 문제 설명:
-높이를 입력받아 비 온 후 얼마나 많은 물이 쌍ㅎ일 수 있는지 계산하라.
+높이를 입력받아 비 온 후 얼마나 많은 물이 쌓일 수 있는지 계산하라.
 
 예제:
 Input: [0,1,0,2,1,0,1,3,2,1,2,1]
