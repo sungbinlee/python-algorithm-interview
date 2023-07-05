@@ -9,9 +9,12 @@ Input: paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", ba
 
 Output: "ball"
 
-풀이: 주어진 문단을 정규표현식을 통해 단어만 분리하고, 소문자로 변환한 뒤, banned 리스트에 포함되지 않는 단어만 추출하여 words 리스트에 저장합니다. 그리고 단어의 등장 횟수를 세기 위해 collections.Counter 객체인 counts를 생성합니다.
+풀이: 주어진 문단을 정규표현식을 통해 단어만 분리하고, 소문자로 변환한 뒤, banned 
+리스트에 포함되지 않는 단어만 추출하여 words 리스트에 저장합니다. 그리고 단어의 등장 
+횟수를 세기 위해 collections.Counter 객체인 counts를 생성합니다.
 
-마지막으로, counts.most_common(1)을 호출하여 등장 횟수가 가장 많은 단어 1개를 튜플 형태로 반환하고, 그 중 첫 번째 원소인 단어를 반환합니다.
+마지막으로, counts.most_common(1)을 호출하여 등장 횟수가 가장 많은 단어 1개를 튜플 
+형태로 반환하고, 그 중 첫 번째 원소인 단어를 반환합니다.
 
 """
 def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
