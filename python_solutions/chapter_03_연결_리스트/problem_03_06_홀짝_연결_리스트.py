@@ -1,5 +1,5 @@
 """
-Chapter 03 - Problem 05 - 홀짝 연결 리스트 - https://leetcode.com/problems/odd-even-linked-list/
+Chapter 03 - Problem 06 - 홀짝 연결 리스트 - https://leetcode.com/problems/odd-even-linked-list/
 
 문제 설명: 
 연결 리스트를 홀수 노드 다음에 짝수 노드가 오도록 재구성하라. 공간 복잡도O(1) 시간복잡도 O(n)에 풀이하라.
