@@ -2,6 +2,7 @@
 Chapter 03 - Problem 05 - 페어의 노드 스왑 - https://leetcode.com/problems/swap-nodes-in-pairs/
 
 문제 설명:
+연결 리스트를 입력받아 페어 단위로 스왑하라
 
 예제:
 Input: head = [1,2,3,4]
